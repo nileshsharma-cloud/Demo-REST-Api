@@ -7,4 +7,4 @@ class Employees(models.Model):
     emp_id = models.IntegerField()
 
     def __str__(self):
-        return self.first_name
+        return self.first_name,self.last_name
